@@ -5,3 +5,4 @@
 ## Divert your attention to something else
 ***ethr***
 [google](https://www.google.jo/)
+[read01](https://eabdalhaleem.github.io/Reading-notes/read01)
