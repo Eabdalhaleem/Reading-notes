@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # The difference between **Java script** and **HTML**, **CSS**.
+=======
+# The difference between **Java script** and **HTML**and **CSS**.
+>>>>>>> 7f1669d2310ee5263b7260b75b8879d8d7971cc9
 CONTENT LAYER
 ## . html files
 This is where the content of
@@ -52,4 +56,8 @@ extension.
 *<em>SSS-3344</ em></ p>
 *</ body>
 *</html>
+<<<<<<< HEAD
 ![java](https://thumbs.dreamstime.com/b/javascript-logo-javascript-logo-white-background-vector-format-available-136765881.jpg)
+=======
+![HTML](https://res.cloudinary.com/practicaldev/image/fetch/s--ohpJlve1--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://res.cloudinary.com/drquzbncy/image/upload/v1586605549/javascript_banner_sxve2l.jpg)
+>>>>>>> 7f1669d2310ee5263b7260b75b8879d8d7971cc9
