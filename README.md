@@ -12,14 +12,16 @@
 [growth-mindset](https://www.atlassian.com/blog/inside-atlassian/growth-mindset)
 ![The Differences Between A Growth Mindset And A Fixed Mindset](https://www.strengthscope.com/wp-content/uploads/2021/01/Growth-v-fixed-mindset-1024x725.jpg)
 
-<<<<<<< HEAD
+
 # Read assigments
-|read01|https://eabdalhaleem.github.io/Reading-notes/read01|
-|read2|https://eabdalhaleem.github.io/Reading-notes/read2|  
-|read03|https://eabdalhaleem.github.io/Reading-notes/read03|
-|read04|https://eabdalhaleem.github.io/Reading-notes/read04|         
-=======
-# read assiments
-[read01](https://eabdalhaleem.github.io/Reading-notes/read01)
-[read2](https://eabdalhaleem.github.io/Reading-notes/read2)
->>>>>>> 7f1669d2310ee5263b7260b75b8879d8d7971cc9
+|name|link|
+|----|----|
+|read01|[read01](https://eabdalhaleem.github.io/Reading-notes/read01)|
+|read2|[read2](https://eabdalhaleem.github.io/Reading-notes/read2)|
+|read03|[read03](https://eabdalhaleem.github.io/Reading-notes/read03)|
+|read04|[read04](https://eabdalhaleem.github.io/Reading-notes/read04)|
+|read04b|[read04b](https://eabdalhaleem.github.io/Reading-notes/read04b)|
+|read05|[read05](https://eabdalhaleem.github.io/Reading-notes/read05)|
+        
+
+
