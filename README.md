@@ -17,7 +17,7 @@
 |read01|https://eabdalhaleem.github.io/Reading-notes/read01|
 |read2|https://eabdalhaleem.github.io/Reading-notes/read2|  
 |read03|https://eabdalhaleem.github.io/Reading-notes/read03|
-|read04|https://eabdalhaleem.github.io/Reading-notes/read04|         
+|read04|https://eabdalhaleem.github.io/Reading-notes/read04||read04b|https://eabdalhaleem.github.io/Reading-notes/read04b|        
 =======
 # read assiments
 [read01](https://eabdalhaleem.github.io/Reading-notes/read01)
