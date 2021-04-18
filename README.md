@@ -23,7 +23,7 @@
 |read04|[read04](https://eabdalhaleem.github.io/Reading-notes/read04)|
 |read04b|[read04b](https://eabdalhaleem.github.io/Reading-notes/read04b)|
 |read05|[read05](https://eabdalhaleem.github.io/Reading-notes/read05)|
-        
+|read06|[read06](https://eabdalhaleem.github.io/Reading-notes/read06)|     |read07|[read07]()|
 
 
        
