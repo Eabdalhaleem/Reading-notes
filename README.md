@@ -28,11 +28,11 @@
 |read9|[read9](https://eabdalhaleem.github.io/Reading-notes/read9 )|
 |class-01|[class-01](https://eabdalhaleem.github.io/Reading-notes/class-01)|
 
-<<<<<<< HEAD
+
 |code 201 reading notes| links|
 |-----|------|   
 |||
-=======
+
        
 
->>>>>>> 2ae672aaa2a4929ec72c40c8e114ca20e188007b
+
