@@ -41,4 +41,11 @@ group together related elements, because you should not be using these new eleme
 - Design is about communication. Visual hierarchy helps
  visitors understand what you are trying to tell them.
 - You can differentiate between pieces of information
- using size, color, and style. 
+ using size, color, and style.
+---
+# Javascript
+a script is a series of intructions that a computer can follow to achieve a goal.
+each time the script runs, it might only use a subset of all the intructions.
+![java](https://4.bp.blogspot.com/-PQHNOWFNS9o/XAkNsyPerCI/AAAAAAAALks/ONXxkKH3lRwskA3cfiqPa-cGKlt8u-l6wCLcBGAs/s1600/javascript.jpg)
+
+
