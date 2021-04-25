@@ -31,8 +31,8 @@
 |code 201 reading notes| links|
 |---------|------|   
 |class-01|[class-01](https://eabdalhaleem.github.io/Reading-notes/class-01)|
-|class-02|[class-02]|
-
+|class-02|[class-02](https://eabdalhaleem.github.io/Reading-notes/class-02)|
+|class-03|[class-03](https://eabdalhaleem.github.io/Reading-notes/class-03|
        
 
 
