@@ -75,6 +75,7 @@ site after finishing looking at the
 other one.
 
 ---------
+
 ## Linking to a Specific 
 Part of the Same Page
 Before you can link to a specific 
@@ -107,6 +108,7 @@ X You can use the id attribute to target elements within
 a page that can be linked to.
 
 -------
+
 ## Building Blocks
 CSS treats each HTML element as if it is in its 
 own box. This box will either be a block-level
@@ -129,6 +131,7 @@ Examples include:
 <img> <b> <i>
 
 -----
+
 ## Controlling the Position of Elements
 CSS has the following positioning schemes that allow you to control 
 the layout of a page: normal flow, relative positioning, and absolute 
@@ -169,6 +172,7 @@ move as users scroll up and
 down the page
 
 ------
+
 ##  Normal flow
 **position:static**
 In normal flow, each block-level 
@@ -227,6 +231,7 @@ specific task. If different parts of a script repeat the same task, you can
 reuse the function (rather than repeating the same set of statements). 
 
 ---
+
 ## Declaring Function:
 to creat a function,you give it a name and then writs the statements
 needed to achieve its task inside the curly braces.
@@ -235,6 +240,7 @@ this is known as a function declaration.
 to run the code in the function, you use the function name followed by parentheses. *sayHello();*
 
 ----
+
 ## Why pair program?
 While learning to code, developers likely study several programming languages. Similar to a foreign language class, there are four fundamental skills that help anyone learn a new language: Listening: hearing and interpreting the vocabulary Speaking: using the correct words to communicate an idea Reading: understanding what written language intends to convey Writing: producing from scratch a meaningful
 

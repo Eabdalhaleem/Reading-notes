@@ -30,9 +30,9 @@
 
 |code 201 reading notes| links|
 |---------|------|   
-|class-01|[class-01](https://eabdalhaleem.github.io/Reading-notes/class-01)|
-|class-02|[class-02](https://eabdalhaleem.github.io/Reading-notes/class-02)|
-|class-03|[class-03](https://eabdalhaleem.github.io/Reading-notes/class-03)|
-       
+|class01|[class01](https://eabdalhaleem.github.io/Reading-notes/class01)|
+|class02|[class02](https://eabdalhaleem.github.io/Reading-notes/class02)|
+|class03|[class03](https://eabdalhaleem.github.io/Reading-notes/class03)|
+|class04|[class04](https://eabdalhaleem.github.io/Reading-notes/class04)|   
 
 
