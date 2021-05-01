@@ -35,4 +35,4 @@
 |class03|[class03](https://eabdalhaleem.github.io/Reading-notes/class03)|
 |class04|[class04](https://eabdalhaleem.github.io/Reading-notes/class04)|   
 |class05|[class05](https://eabdalhaleem.github.io/Reading-notes/class05)|
-
+|class06|[class06](https://eabdalhaleem.github.io/Reading-notes/class06)|

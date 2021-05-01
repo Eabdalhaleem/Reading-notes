@@ -53,9 +53,19 @@ the bottom of the image.
 3- in the middle of a paragraph The image is placed between the 
 words of the paragraph that it appears in.
 
+-----
+
+**align** 
+The align attribute was 
+commonly used to indicate how 
+the other parts of a page should 
+flow around an image. It has 
+been removed from HTML5
+
+
 ------
-There are three **rules to remember when you 
-are creating images** for your website which are 
+There are three **rules** to remember when you 
+are creating **images** for your website which are 
 summarized below. We go into greater detail 
 on each topic over the next nine pages
 
@@ -70,7 +80,78 @@ specified, the image can be distorted and stretched. If the
 image is larger than the width and height if you have specified, 
 the image will take longer to display on the page.
 
+- Use the correctresolution
+Computer screens are made up 
+of dots known as pixels. Images 
+used on the web are also made 
+up of tiny dots. Resolution refers 
+to the number of dots per inch, 
+and most computer screens only 
+show web pages at 72 pixels 
+per inch. So saving images at 
+a higher resolution results in 
+images that are larger than 
+necessary and take longer to 
+download
+
 ----
+* The images you use on your website should be 
+saved at the same width and height that you 
+want them to appear on the page.
+
+* When cropping images it is important not to 
+lose valuable information. It is best to source 
+images that are the correct shape if possible.
+
+* Images created for the web should be saved at 
+a resolution of 72 ppi. The higher the resolution 
+of the image, the larger the size of the file
+
+* Vector images differ from bitmap images and 
+are resolution-independent. Vector images are 
+commonly created in programs such as Adobe 
+Illustrator.
+
+* Animated GIFs show several frames of an 
+image in sequence and therefore can be used to 
+create simple animations.
+
+* Transparency: Creating an image that is partially transparent (or "see-through") for the web involves 
+selecting one of two formats:
+- Transparent GIF
+- PNG
+
+--------
+
+# HTML5: Figure and Figure Caption
+
+**<figure>**
+Images often come with 
+captions. HTML5 has introduced 
+a new **<figure>** element to 
+contain images and their caption 
+so that the two are associated. 
+You can have more than one 
+image inside the <figure>
+element as long as they all share 
+the same caption.
+**<figcaption>**
+The <figcaption> element has 
+been added to HTML5 in order 
+to allow web page authors to add 
+a caption to an image.
+Before these elements were 
+created there was no way to 
+associate an <img> element with 
+its caption.
+Older browsers that do not 
+understand HTML5 elements 
+simply ignore the new elements 
+and display the content of them
+
+
+-------
+
 The <img> element is used to add images to a web page.
 - You must always specify a src attribute to indicate the 
 source of an image and an alt attribute to describe the 
@@ -80,8 +161,11 @@ them on the web page and in the appropriate format.
 - Photographs are best saved as JPEGs; illustrations or 
 logos that use flat colors are better saved as GIFs.
 
+
 -------
 # Colors
+
+
 The color property allows you to specify the color of text inside 
 an element. You can specify any color in CSS in one of three ways:
 - rgb values
@@ -95,29 +179,54 @@ green and blue in a color, preceded by a pound or hash # sign.
 There are 147 predefined color names that are recognized 
 by browsers. For example: DarkCyan
 
+![color](https://make.wordpress.org/core/files/2021/02/wordpress-admin-color-palette-WP57.png)
+
+
 ---
 
-RGB Values
+# Background Color (background-color)
+
+CSS treats each HTML element 
+as if it appears in a box, and the 
+background-color property 
+sets the color of the background 
+for that box.
+You can specify your choice of 
+background color in the same 
+three ways you can specify 
+foreground colors: RGB values, 
+hex codes, and color names
+
+------------
+
+Every color on a computer screen is created by mixing amounts of red, 
+green, and blue. To find the color you want, you can use a color picker.
+
+----------
+
+**RGB Values**
 Values for red, green, and blue 
 are expressed as numbers 
 between 0 and 255. 
-rgb(102,205,170)
+**rgb(102,205,170)**
 This color is made up of the 
 following values:
 102 red
 205 green
 170 blue
-- Hex Codes
+ 
+- **Hex Codes**
 Hex values represent values 
 for red, green, and blue in 
 hexadecimal code.
-#66cdaa
+**#66cdaa**
 The value of the red, 102, is 
 expressed as 66 in hexadecimal 
 code. The 205 of the green is 
 expressed as cd and the 170 of 
 the blue equates to aa.
-- Color Names
+
+- **Color Names**
 Colors are represented by 
 predefined names. However, 
 they are very limited in number.
@@ -133,7 +242,43 @@ white and black) they are not
 commonly used
 
 ----
-olor not only brings your site to life, but also helps 
+# Hsl, Hsla
+The hsl color property has 
+been introduced in CSS3 as an 
+alternative way to specify colors. 
+The value of the property starts 
+with the letters hsl, followed 
+by individual values inside 
+parentheses for:
+## hue
+This is expressed as an angle 
+(between 0 and 360 degrees).
+saturation
+This is expressed as a 
+percentage.
+## lightness
+This is expressed as a 
+percentage with 0% being white, 
+50% being normal, and 100% 
+being black.
+The hsla color property allows 
+you to specify color properties 
+using hue, saturation, and 
+lightness as above, and adds a 
+fourth value which represents 
+transparency (just like the rgba
+property). The a stands for:
+## alpha
+This is expressed as a 
+number between 0 and 1.0. 
+For example, 0.5 represents 
+50% transparency, and 0.75
+represents 75% transparency.
+
+
+--------
+
+- color not only brings your site to life, but also helps 
 convey the mood and evokes reactions.
 - There are three ways to specify colors in CSS: 
 RGB values, hex codes, and color names.
@@ -147,7 +292,10 @@ indicate opacity. It is known as RGBA.
 with an optional opacity value. It is known as HSLA.
 
 -----
+
  ## Text
+
+
  The properties that allow you to control 
 the appearance of text can be split into 
 two groups:
@@ -157,6 +305,28 @@ and the size of the text)
 ● Those that would have the same effect on text no matter 
 what font you were using (including the color of text and 
 the spacing between words and letters)
+
+---------
+# Typeface Terminology
+
+* Serif 
+Serif fonts have extra details on 
+the ends of the main strokes of 
+the letters. These details are 
+known as serifs
+
+* Sans-Serif
+Sans-serif fonts have straight 
+ends to letters, and therefore 
+have a much cleaner design.
+
+* Monospace
+Every letter in a monospace (or 
+fixed-width) font is the same 
+width. (Non-monospace fonts 
+have different widths.)
+
+---------
 
 When choosing 
 a typeface, it is important to 
@@ -173,6 +343,8 @@ ends to letters and therefore
 have a much cleaner design
 
 -----
+# Specifying Typefaces
+
 **The font-family** property 
 allows you to specify the 
 typeface that should be used for 
@@ -184,67 +356,326 @@ to use.
 The people who are visiting 
 your site need the typeface you 
 have specified installed on their 
-computer in
+computer inorder for it to be 
+displayed.
+
  -------
 
- **The font-size property** enables 
+ **The font-size** property enables 
 you to specify a size for the 
 font. There are several ways to 
 specify the size of a font. The 
 most common are:
-pixels
+
+## pixels
 Pixels are commonly used 
 because they allow web 
 designers very precise control 
 over how much space their text 
 takes up. The number of pixels is 
 followed by the letters px.
-percentagesThe default size of text in 
+
+## percentages 
+The default size of text in 
 browsers is 16px. So a size of 
 75% would be the equivalent of 
 12px, and 200% would be 32px**
 
 -------
-If you want to create italic text, you can use the font-style
+
+## @font-face
+
+@font-face allows you to use 
+a font, even if it is not installed 
+on the computer of the person 
+browsing, by allowing you to 
+specify a path to a copy of the 
+font, which will be downloaded if 
+it is not on the user's machine.
+
+----------
+
+## font-family
+This specifies the name of the 
+font. This name can then be used 
+as a value of the font-family
+property in the rest of the style 
+sheet (as shown in the rule for 
+the <h1> and <h2> elements).
+
+## src
+This specifies the path to the 
+font. In order for this technique 
+to work in all browsers, you will 
+probably need to specify paths 
+to a few different versions of the 
+font, as shown on the next page.
+
+## format
+This specifies the format that the 
+font is supplied in. (It's discussed 
+in detail on the next page.)
+
+------
+
+# font-weight
+
+The font-weight property 
+allows you to create bold text. 
+There are two values that this 
+property commonly takes:
+
+## normal
+This causes text to appear at a 
+normal weight.
+## **bold**
+This causes text to appear bold.
+In this example, you can see 
+that the element whose class
+attribute has a value of credits
+has been bolded
+
+--------
+# font-style
+
+If you want to create *ilatic* text, you can use the font-style
 property. There are three values this property can take:
-normal This causes text to appear in a 
+
+**normal** 
+This causes text to appear in a 
 normal style (as opposed to italic 
 or oblique).
-italic
+
+*italic*
 This causes text to appear italic.
-oblique This causes text to appear 
+
+**oblique**
+This causes text to appear 
 oblique 
 
 -------
-The text-transform property 
+# The text-transform 
+property 
 is used to change the case of 
 text giving it one of the following 
 values:
-uppercase
-This causes the text to appear 
+
+- *uppercase* This causes the text to appear 
 uppercase.
-lowercase
+
+- *lowercase*
 This causes the text to appear 
 lowercase.
-capitalize
+
+- *capitalize*
 This causes the first letter of 
 each word to appear capitalized
 
 ------------
 
-The text-decoration property 
+## The text-decoration
+ property 
 allows you to specify the 
 following values:
-none
+
+**none**
 This removes any decoration 
 already applied to the text.
-underline
+
+**underline**
 This adds a line underneath the 
 text.
-overline
+
+**overline**
 This adds a line over the top of 
 the text.
-line-through
+
+**line-through**
 This adds a line through words
 
+**blink**
+This animates the text to make it 
+flash on and off (however this is 
+generally frowned upon, as it is 
+considered rather annoying).
+In this example, the credits hav
+
 ---------
+
+# Alignment
+## text-align 
+The text-align property allows 
+you to control the alignment of 
+text. The property can take one 
+of four values:
+
+## left
+This indicates that the text 
+should be left-aligned.
+
+## right
+This indicates that the text 
+should be right-aligned.
+
+## center
+This allows you to center text.
+
+## justify
+This indicates that every line in 
+a paragraph, except the last line, 
+should be set to take up the full 
+width of the containing box
+
+-----
+# Vertical Alignment
+## vertical-align
+
+The vertical-align property is 
+a common source of confusion. 
+It is not intended to allow you to 
+vertically align text in the middle 
+of block level elements such as 
+<p> and <div>, although it does 
+have this effect when used with 
+table cells (the <td> and <th>
+elements).
+
+# Indenting Text
+## text-indent
+
+The text-indent property 
+allows you to indent the first 
+line of text within an element. 
+The amount you want the line 
+indented by can be specified in 
+a number of ways but is usually 
+given in pixels or ems
+
+-----
+
+#  Drop Shadow
+## text-shadow
+
+The text-shadow property has 
+become commonly used despite 
+lacking support in all browsers. 
+It is used to create a drop 
+shadow, which is a dark version 
+of the word just behind it and 
+slightly offset. It can also be used 
+to create an embossed effect by 
+adding a shadow that is slightly 
+lighter than the text.
+The value of this property is 
+quite complicated because it can 
+take three lengths and a color for 
+the drop shadow.
+
+
+-----
+
+# First Letter or Line
+## :first-letter, :first-line
+
+You can specify different values 
+for the first letter or first line of 
+text inside an element using
+:first-letter and 
+:first-line. 
+Technically these are not 
+properties. They are known as 
+pseudo-elements.
+You specify the pseudo-element 
+at the end of the selector, and 
+then specify the declarations as 
+you would normally for any other 
+element
+
+-------
+
+# Styling Links
+## :link, :visited
+
+Browsers tend to show links 
+in blue with an underline by 
+default, and they will change 
+the color of links that have been 
+visited to help users know which 
+pages they have been to.
+
+
+------
+
+# :link
+This allows you to set styles 
+for links that have not yet been 
+visited.
+
+# :visited
+This allows you to set styles for 
+links that have been clicked on. 
+They are commonly used to 
+control colors of the links and 
+also whether they are to appear 
+underlined or not
+
+-------
+
+# Responding to Users
+## :hover, :active, :focus
+
+There are three pseudo-classes 
+that allow you to change the 
+appearance of elements when a 
+user is interacting with them.
+
+## :hover
+This is applied when a user 
+hovers over an element with a 
+pointing device such as a mouse. 
+This has commonly been used 
+to change the appearance of 
+links and buttons when a user 
+places their cursor over them
+
+# :active
+This is applied when an element 
+is being activated by a user; for 
+example, when a button is being 
+pressed or a link being clicked. 
+Sometimes this is used to make 
+a button or link feel more like it 
+is being pressed by changing the 
+style or position of the element 
+slightly.
+
+# :focus
+This is applied when an element 
+has focus. Any element that 
+you can interact with, such as a 
+link you can click on or any form 
+control can have focus.
+
+------
+
+![text](https://cdn.educba.com/academy/wp-content/uploads/2019/08/CSS-Text-Formatting-Properties2.png)
+
+
+* There are properties to control the choice of font, size, 
+weight, style, and spacing.
+
+* There is a limited choice of fonts that you can assume 
+most people will have installed.
+
+* If you want to use a wider range of typefaces there are 
+several options, but you need to have the right license 
+to use them.
+
+* You can control the space between lines of text, 
+individual letters, and words. Text can also be aligned 
+to the left, right, center, or justified. It can also be 
+indented.
+
+* You can use pseudo-classes to change the style of an 
+element when a user hovers over or clicks on text, or 
+when they have visited a link
