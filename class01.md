@@ -265,7 +265,7 @@ Its s re attribute tells people where the JavaScript file is stored.
 opening <script> and closing </script> tags 
 (but it is better to put scripts in their own files).
 
-----------
+-------------
 
 - It is best to keep JavaScript code in its own JavaScript 
 file. JavaScript files are text files (like HTML pages and 
