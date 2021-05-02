@@ -8,7 +8,8 @@ between the opening <a> tag and the closing </a> tag. You specify
 which page you want to link to using the href attribute.
 ![aelement](https://dirask.com/static/bucket/1573242150028-jdlQB5OAR9--image.png)
 
-------------
+------------ 
+
 ## Linking to Other Sites
 <a>Links are created using the <a>
 element which has an attribute 
@@ -32,10 +33,12 @@ you do not need to specify the
 domain name in the URL. You 
 can use a shorthand known as a 
 relative URL.
+
 If all the pages of the site are in 
 the same folder, then the value 
 of the href attribute is just the 
 name of the file.
+
 If you have different pages of a 
 site in different folders, then you 
 can use a slightly more complex 
@@ -45,6 +48,7 @@ page.
 
 ---------
 ## Email Links
+
 mailto:To create a link that starts up 
 the user's email program and 
 addresses an email to a specified 
@@ -56,10 +60,9 @@ the email address you want the
 email to be sent to.
 
 -----
-## Opening Links in
-a New Window
-target
-If you want a link to open in a 
+## Opening Links ina New Window
+
+target If you want a link to open in a 
 new window, you can use the 
 target attribute on the opening 
 <a> tag. The value of this 
@@ -89,22 +92,28 @@ element). You can see that the
 example have been given id
 attributes that identify those 
 sections of the page.
+
 The value of the id attribute 
 should start with a letter or an 
 underscore (not a number or 
 any other character) and, on a 
 single page, no two id attributes 
 should have the same value.
+
+
 # Linking to a Specific 
 Part of Another Page
 Links are created using the <a> element.
-X The <a> element uses the href attribute to indicate 
+* The <a> element uses the href attribute to indicate 
 the page you are linking to.
-X If you are linking to a page within your own site, it is 
+
+* If you are linking to a page within your own site, it is 
 best to use relative links rather than qualified URLs.
-X You can create links to open email programs with an 
+
+* You can create links to open email programs with an 
 email address in the "to" field.
-X You can use the id attribute to target elements within 
+
+* You can use the id attribute to target elements within 
 a page that can be linked to.
 
 -------
@@ -133,11 +142,16 @@ Examples include:
 -----
 
 ## Controlling the Position of Elements
+
 CSS has the following positioning schemes that allow you to control 
 the layout of a page: normal flow, relative positioning, and absolute 
 positioning. You specify the positioning scheme using the position
 property in CSS. You can also float elements using the float property.
+
+------------
+
  **Normal flow**
+
 Every block-level element 
 appears on a new line, causing 
 each item to appear lower down 
@@ -148,6 +162,9 @@ for two elements to sit side-byside, they will not appear next
 to each other. This is the default 
 behavior (unless you tell the 
 browser to do something else).
+
+-----------
+
 **Relative Positioning**
 This moves an element from the 
 position it would be in normal 
@@ -158,6 +175,9 @@ does not affect the position of
 surrounding elements; they stay 
 in the position they would be in 
 in normal flow
+
+------------
+
 **Absolute positioning**
 This positions the element 
 in relation to its containing 
@@ -174,6 +194,8 @@ down the page
 ------
 
 ##  Normal flow
+
+---------------
 **position:static**
 In normal flow, each block-level 
 element sits on top of the next 
@@ -229,6 +251,10 @@ offset properties are used.
 Functions let you group a series of statements together to perform a 
 specific task. If different parts of a script repeat the same task, you can 
 reuse the function (rather than repeating the same set of statements). 
+
+
+![function](https://i.morioh.com/27250083ed.png)
+
 
 ---
 
