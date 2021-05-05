@@ -18,12 +18,12 @@ borders, margins, padding, and background colors.
 
 Block-level elementsstart on a new line
 Examples include:
-<h1> <p> <ul> <li>
+`<h1> <p> <ul> <li>`
 
 
 Inline elementsflow in between surrounding text
 Examples include:
-<img> <b> <i>
+`<img> <b> <i>`
 
 -------------
 
@@ -33,11 +33,11 @@ If one block-level element sits inside another
 block-level element then the outer box is 
 known as the containing or parent element.
 
-It is common to group a number of elements together inside a <div>
+It is common to group a number of elements together inside a `<div>`
 
 (or other block-level) element. For example, you might group together 
 all of the elements that form the header of a site (such as the logo and 
-the main navigation). The <div> element that contains this group of 
+the main navigation). The `<div>` element that contains this group of 
 elements is then referred to as the containing element
 
 -----------

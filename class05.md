@@ -13,9 +13,9 @@ stored in a folder called images.
 
 ------
 ## Adding Images:
-<img> 
+`<img>` 
 To add an image into the page 
-you need to use an <img>
+you need to use an `<img>`
 element. This is an empty 
 element (which means there is 
 no closing tag). It must carry the 
@@ -30,7 +30,7 @@ own site.
 **alt**
 This provides a text description of the image which describes the image if you cannot see it.
 **title**
-You can also use the titleattribute with the <img> element 
+You can also use the titleattribute with the `<img>` element 
 to provide additional information 
 about the image. Most browsers 
 will display the content of this 
@@ -69,18 +69,18 @@ are creating **images** for your website which are
 summarized below. We go into greater detail 
 on each topic over the next nine pages
 
-- Save images in the right format
+* Save images in the right format
 Websites mainly use images in jpeg, gif, or png format. If you choose the wrong image format then your image might not look as sharp as it should 
 and can make the web page slower to load.
 
-- Save images at the right size You should save the image at 
+* Save images at the right size You should save the image at 
 the same width and height it will appear on the website. If 
 the image is smaller than the width or height that you have 
 specified, the image can be distorted and stretched. If the 
 image is larger than the width and height if you have specified, 
 the image will take longer to display on the page.
 
-- Use the correctresolution
+* Use the correctresolution
 Computer screens are made up 
 of dots known as pixels. Images 
 used on the web are also made 
@@ -95,6 +95,7 @@ necessary and take longer to
 download
 
 ----
+
 * The images you use on your website should be 
 saved at the same width and height that you 
 want them to appear on the page.
@@ -125,24 +126,24 @@ selecting one of two formats:
 
 # HTML5: Figure and Figure Caption
 
-**<figure>**
+`<figure>`
 Images often come with 
 captions. HTML5 has introduced 
-a new **<figure>** element to 
+a new `<figure> `element to 
 contain images and their caption 
 so that the two are associated. 
 You can have more than one 
-image inside the <figure>
+image inside the `<figure>`
 element as long as they all share 
 the same caption.
-**<figcaption>**
-The <figcaption> element has 
+`<figcaption>`
+The `<figcaption>` element has 
 been added to HTML5 in order 
 to allow web page authors to add 
 a caption to an image.
 Before these elements were 
 created there was no way to 
-associate an <img> element with 
+associate an` <img>` element with 
 its caption.
 Older browsers that do not 
 understand HTML5 elements 
@@ -152,7 +153,7 @@ and display the content of them
 
 -------
 
-The <img> element is used to add images to a web page.
+The `<img>` element is used to add images to a web page.
 - You must always specify a src attribute to indicate the 
 source of an image and an alt attribute to describe the 
 content of an image.
@@ -163,19 +164,20 @@ logos that use flat colors are better saved as GIFs.
 
 
 -------
+
 # Colors
 
 
 The color property allows you to specify the color of text inside 
 an element. You can specify any color in CSS in one of three ways:
-- rgb values
+* rgb values
 These express colors in terms of how much red, green and 
 blue are used to make it up. For example: rgb(100,100,90)
-- hex codes
+* hex codes
 These are six-digit codes that represent the amount of red, 
 green and blue in a color, preceded by a pound or hash # sign.
  For example: #ee3e80
-- color names
+* color names
 There are 147 predefined color names that are recognized 
 by browsers. For example: DarkCyan
 
@@ -383,7 +385,7 @@ browsers is 16px. So a size of
 
 -------
 
-## @font-face
+## font-face
 
 @font-face allows you to use 
 a font, even if it is not installed 
@@ -401,7 +403,7 @@ font. This name can then be used
 as a value of the font-family
 property in the rest of the style 
 sheet (as shown in the rule for 
-the <h1> and <h2> elements).
+the `<h1>` and `<h2>` elements).
 
 ## src
 This specifies the path to the 

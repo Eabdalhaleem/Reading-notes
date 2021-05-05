@@ -1,58 +1,235 @@
 # HTML Text, CSS Introduction, and Basic JavaScript Instructions
 ## Text
+
 HTML elements are used to describe the structure of 
 the page (e.g. headings, subheadings, paragraphs).
-X They also provide semantic information (e.g. where 
+
+* They also provide semantic information (e.g. where 
 emphasis should be placed, the definition of any 
 acronyms used, when given text is a quotation)
 
 ----
 ## Heading :
+
 HTML has six "levels" of 
 headings:
-<h1> is used for main headings
-<h2> is used for subheadings
+`<h1>` is used for main headings
+`<h2>` is used for subheadings
 If there are further sections 
 under the subheadings then the 
-<h3> element is used, and so 
+`<h3>` element is used, and so 
 on...
  ---
+
+
  ## paragraphs 
- <p>
+
+ `<p>`
 To create a paragraph, surround 
 the words that make up the 
-paragraph with an opening <p>
-tag and closing </p> tag.
+paragraph with an opening `<p>`
+tag and closing `</p>` tag.
+
+
  ## Bold & Ilitic
- <b>
+ `<b>`
 By enclosing words in the tags 
-<b> and </b> we can make 
+`<b>` and `</b>` we can make 
 characters appear **bold**.
-The <b> element also represents 
+The `<b>` element also represents 
 a section of text that would be 
 presented in a visually different 
 way (for example key words in a 
 paragraph) although the use of 
-the <b> element does not imply 
+the `<b>` element does not imply 
 any additional meaning.
-<i>
+`<i>`
 By enclosing words in the tags 
-<i> and </i> we can make 
+`<i>` and `</i>` we can make 
 characters appear *italic*.
-  
+
+------
+
+  # Superscript & Subscrip
+
+  `<sup>`
+The <sup> element is used 
+to contain characters that 
+should be superscript such 
+as the suffixes of dates or 
+mathematical concepts like 
+raising a number to a power such 
+as 22
+
+`<sub>`
+The `<sub>` element is used to 
+contain characters that should 
+be subscript. It is commonly 
+used with foot notes or chemical 
+formulas such as H2
+0.
+
+
+---------
+
+## White Space
+
+In order to make code easier to 
+read, web page authors often 
+add extra spaces or start some 
+elements on new lines.
+When the browser comes across 
+two or more spaces next to each 
+other, it only displays one space. 
+Similarly if it comes across a line 
+break, it treats that as a single 
+space too. This is known as 
+white space collapsing
+
   ----
-  ## trong & Emphasis
-  <em>
-The <em> element indicates 
+  ## strong & Emphasis
+
+  `<em>`
+The `<em>` element indicates 
 emphasis that subtly changes 
 the meaning of a sentence.
-<strong>
-The use of the <strong>
+
+`<strong>`
+The use of the `<strong>`
 element indicates that its 
 content has strong importance.
 
+----------
+
+# Quotations
+
+There are two elements 
+commonly used for marking up 
+quotations:
+
+`<blockquote>`
+
+The `<blockquote>` element is 
+used for longer quotes that take 
+up an entire paragraph. Note 
+how the `<p>` element is still 
+used inside the `<blockquote>`
+element. 
+
+Browsers tend to indent the 
+contents of the `<blockquote>`
+element, however you should not 
+use this element just to indent a 
+piece of text — rather you should 
+achieve this effect using CSS. 
+
+`<q>`
+
+The `<q>` element is used for 
+shorter quotes that sit within 
+a paragraph. Browsers are 
+supposed to put quotes around 
+the `<q>` element, however 
+Internet Explorer does not — 
+therefore many people avoid 
+using the `<q>` element.
+
+-------------
+
+## Abbreviations & Acronyms
+
+`<abbr>`
+If you use an abbreviation or 
+an acronym, then the `<abbr>`
+element can be used. A title
+attribute on the opening tag is 
+used to specify the full term
+
+---------
+# Citations & Definitions
+
+`<cite>`
+When you are referencing a 
+piece of work such as a book, 
+film or research paper, the 
+`<cite>` element can be used 
+to indicate where the citation is 
+from.
+In HTML5, `<cite>` should not 
+really be used for a person's 
+name — but it was allowed in 
+HTML 4, so most people are 
+likely to continue to use it.
+Browsers will render the content 
+of a `<cite>` element in italics.
+
+----
+# Author Details
+
+`<address>` 
+
+The `<address>` element has 
+quite a specific use: to contain 
+contact details for the author of 
+the page.
+
+It can contain a physical address, 
+but it does not have to. For 
+example, it may also contain a 
+phone number or email address.
+
+-----
+`<dfn>`
+The first time you explain some 
+new terminology (perhaps an 
+academic concept or some 
+jargon) in a document, it is 
+known as the defining instance 
+of it.
+The `<dfn>` element is used to 
+indicate the defining instance of 
+a new term
+
+-----
+# Changes to Content
+`<ins>`
+`<del>`
+The `<ins>` element can be used 
+to show content that has been 
+inserted into a document, while 
+the `<del>` element can show text 
+that has been deleted from it.
+The content of a `<ins>` element 
+is usually underlined, while the 
+content of a `<del>` element 
+usually has a line through it.
+
+`<s>`
+The `<s>` element indicates 
+something that is no longer 
+accurate or relevant (but that 
+should not be deleted).
+Visually the content of an `<s>`
+element will usually be displayed 
+with a line through the center.
+
+--------
+
+* HTML elements are used to describe the structure of 
+the page (e.g. headings, subheadings, paragraphs).
+
+* They also provide semantic information (e.g. where 
+emphasis should be placed, the definition of any 
+acronyms used, when given text is a quotation).
+
+-----------
+
+![css](https://marketplace-cdn.atlassian.com/files/images/f7d3a59d-5680-4f27-bcce-54a0f6780820.png)
+
 ------
+
 # INtroducing CSS :
+
 CSS allows you to create rules that control the 
 way that each individual box (and the contents 
 of that box) is presented.
