@@ -234,25 +234,28 @@ CSS allows you to create rules that control the
 way that each individual box (and the contents 
 of that box) is presented.
 CSS works by associating rules with HTML elements. These rules govern 
-how the content of specified elements should be displayed. A CSS rule 
-contains two parts: a selector and a declaration.
+how the content of specified elements should be displayed.
+ A CSS rule contains two parts: a selector and a declaration.
 CSS declarations sit inside curly brackets and each is made up of two 
 parts: a property and a value, separated by a colon. You can specify 
 several properties in one declaration, each separated by a semi-colon.
- ** Using External CSS **
- <link> chapter-10/using-external-css.html HTML
-The <link> element can be used 
+
+  **Using External CSS**
+ `<link>` chapter-10/using-external-css.html HTML
+The `<link>` element can be used 
 in an HTML document to tell the 
 browser where to find the CSS 
 file used to style the page. 
 < link href="css/styles.css" type="text/css"
+
 **Using Internal CSS**
-<style>
+
+`<style>`
 You can also include CSS rules 
 within an HTML page by placing 
-them inside a <style> element, 
+them inside a `<style>` element, 
 which usually sits inside the 
-<head> element of the page. 
+`<head>` element of the page. 
   
  -----
  # JS 
@@ -298,4 +301,40 @@ condition statment
  you can evalute a sitiuation by comparing one value to what you expect
 
  ![html](http://4.bp.blogspot.com/-4Y13ry3aGXc/VmA_aWYH0JI/AAAAAAAAHlE/zWzmDyw-zac/s640/logo_html5.png)
+
+--------
+
+# Decision making
+there are often several places in a script where decisions are made that determine which lines of code should be run next .flowcharts can help you plan for these occasions.
+
+in a flowchart, the diamond shape represents a point where a decision must be made and the code can take one of two different path.
+
+----------
+
+# evaluting conditions & conditional statment :
+there are tow components to a decision :
+* An expression is evaluated , which returns a value 
+* A conditional statment says what to do in given situation.
+
+* **evaluting conditions**
+in order to make a decision , your code checks the current status of the script .
+
+* **conditional statment**
+
+a conditional statements is based on a concept of if/then/else; if a condition i met, then your code executes one or more statments,else your code does something diferents.
+
+---------
+
+page 149 /js book
+
+
+
+
+
+
+
+
+
+
+
 
