@@ -53,3 +53,5 @@ starting points. A growth mindset is synonymous with a love of learning.
 |class07|[class07](https://eabdalhaleem.github.io/Reading-notes/class07)|
 |class08|[class08](https://eabdalhaleem.github.io/Reading-notes/class08)|
 |class09|[class09](https://eabdalhaleem.github.io/Reading-notes/class09)|
+|class10|[class10](https://eabdalhaleem.github.io/Reading-notes/class10)|
+|class11|[class11](https://eabdalhaleem.github.io/Reading-notes/class11)|

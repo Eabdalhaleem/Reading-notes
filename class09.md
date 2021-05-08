@@ -1225,6 +1225,557 @@ vertically aligned using CSS.
 * Forms benefit from styles that make them feel more 
 interactive
 
-start From the Duckett JS book:
+-------------
 
-Chapter 6: “Events” (pp.243-292)
+# DIFFERENT EVENT TYPES
+
+![event](https://image.slidesharecdn.com/javascripteventhandler-130206005809-phpapp02/95/javascript-event-handler-6-638.jpg?cb=1360112430)
+
+
+## TERMINOLOGY 
+**EVENTS FIRE OR ARE RAISED**
+When an event has occurred, it is often described as having fired or 
+been raised. In the diagram on the right, if the user is tapping on a link, a 
+click event would fire in the browser.
+
+**EVENTS TRIGGER SCRIPTS**
+Events are said to trigger a function or script. When the click event 
+fires on the element in this diagram, it could trigger a script that enlarges 
+the selected item
+
+-------
+
+# HOW EVENTS TRIGGER JAVASCRIPT CODE 
+When the user interacts with the HTML on a web page, there are three 
+steps involved in getting it to trigger some JavaScript code. 
+Together these steps are known as event handling. 
+
+* Select t he element 
+node(s) you want the 
+script to respond to. 
+For example, if you want to 
+trigger a function when a user 
+clicks on a specific link, you need 
+to get the DOM node for that 
+link element. You do this using a 
+DOM query .
+
+* Indicate which event on 
+the selected node(s) will 
+trigger the response. 
+Programmers call this binding an 
+event to a DOM node. 
+The previous two pages showed 
+a selection of the popular events 
+that you can monitor for. 
+
+* State the code you want 
+to run when the event 
+occurs. 
+When the event occurs, on a 
+specified element, it will trigger 
+a function. This may be a named 
+or an anonymous function. 
+
+-----
+Here you can see how event handling can be used to provide feedback to 
+users filling in a registration form. It will show an error message if their 
+username is too short. 
+
+* SELECT ELEMENT 
+The element that users are 
+interacting with is the text input 
+where they enter the username.
+
+* SPEC!FY EVENT 
+When users move out of the 
+text input, it loses focus, and the 
+blur event fires on this element. 
+
+* CALL CODE 
+When the blur event fires 
+on the username input, it 
+will trigger a function called 
+chec kUsername ().This function 
+checks if the username is less 
+than 5 characters. 
+If there are not enough 
+characters, it shows an error 
+message that prompts the user 
+to enter a longer username. 
+If there are enough characters, 
+the element that holds the error 
+message should be cleared. 
+This is because an error 
+message may have been shown 
+to the user already and they 
+subsequently corrected their 
+mistake. (If the error message 
+was still visible when they had 
+filled in the form correctly, it 
+would be confusing.) 
+
+-------
+
+# THREE WAYS TO BIND AN EVENT TO AN ELEMENT
+
+
+
+Event handlers let you indicate which event you 
+are waiting for on any particular element. 
+There are three types of event handlers. 
+
+**HTML EVENT HANDLERS**
+ 
+This is bad practice, but you 
+need to be aware of it because 
+you may see it in older code. 
+Early versions of HTML included 
+a set of attributes that could 
+respond to events on the 
+element they were added to. 
+The attribute names matched 
+the event names. Their values 
+called the function that was to 
+run when that event occurred. 
+For example, the following: 
+`<a onclick="hide()">` 
+indicated that when a user 
+clicked on this `<a>` element, the 
+hi de () function would be called. 
+This method of event handling 
+is no longer used because it is 
+better to separate the JavaScript 
+from the HTML. You should use 
+one of the other approaches 
+shown on this page instead
+
+**TRADITIONAL DOM EVENT HANDLERS** 
+ 
+DOM event handlers were 
+introduced in the original 
+specification for the DOM. 
+They are considered better than 
+HTML event handlers because 
+they let you separate the 
+JavaScript from the HTML. 
+Support in all major browsers is 
+very strong for this approach. 
+The main drawback is that you 
+can only attach a single function 
+to any event. For example, the 
+submit event of a form cannot 
+trigger one function that checks 
+the contents of a form, and a 
+second to submit the form data if 
+it passes the checks. 
+As a result of this limitation, if 
+more than one script is used on 
+the same page, and both scripts 
+respond to the same event, then 
+one or both of the scripts may 
+not work as intended.
+
+**DOM LEVEL 2 EVENT LISTENERS**
+
+Event listeners were introduced 
+in an update to the DOM 
+specification (DOM level 2, 
+released in the year 2000). 
+They are now the favored way of 
+handling events. 
+The syntax is quite different and, 
+unlike traditional event handlers, 
+these newer event listeners allow 
+one event to trigger multiple 
+functions. As a result, there 
+are less likely to be conflicts 
+between different scripts that 
+run on the same page. 
+
+------
+
+**HTML EVENT HANDLER ATTRIBUTES (DO NOT USE)** 
+Please note: This approach is 
+now considered bad practice; 
+however, you need to be aware 
+of it because you may see it if 
+you are looking at older code. 
+ 
+In the HTML, the first `<input>` 
+element has an attribute called 
+onb l ur (triggered when the user 
+leaves the element). The value of 
+the attribute is the name of the 
+function that it should trigger. 
+The value of the event handler 
+attributes would be JavaScript. 
+Often it would call a function 
+that was written either in the 
+`<head>` element or a separate
+
+----------
+
+# TRADITIONAL DOM EVENT HANDLERS 
+All modern browsers understand this way of creating an event handler, 
+but you can only attach one function to each event handler. 
+Here is the syntax to bind an event to an element using an event handler, 
+and to indicate which function should execute when that event fires:
+
+**element .onevent functionName ;**
+**ELEMENT.  EVENT .   CODE** 
+DOM element Event bound to node(s) Name of function to call (with 
+node to target preceded by word "on" no parentheses following it)
+
+-------
+
+**USING DOM EVENT HANDLERS**
+In this example, the event 
+handler appears on the last line 
+of the JavaScript. Before the 
+DOM event handler, two things 
+are put in place:
+
+*  If you use a named function 
+when the event fires on your 
+chosen DOM node, write that 
+function first. (You could also 
+use an anonymous function.)
+
+* 2. The DOM element node is 
+stored in a variable. Here the text 
+input (whose id attribute has a 
+value of username) is placed into 
+a variable called e 1 Username. 
+
+---
+
+Event listeners are a more recent approach to handling events. 
+They can deal with more than one function at a time 
+but they are not supported in older browsers.
+
+---
+
+**USING PARAMETERS WITH EVENT HANDLERS & LISTENERS** 
+Because you cannot have parentheses after the 
+function names in event handlers or listeners, 
+passing arguments requires a workaround. 
+
+Usually, when a function needs 
+some information to do its job, 
+you pass arguments within the 
+parentheses that follow the 
+function name. 
+
+When the interpreter sees the 
+parentheses after a function call, 
+it runs the code straight away. 
+In an event handler, you want it 
+to wait until the event triggers it. 
+
+Therefore, if you need to pass 
+arguments to a function that is 
+called by an event handler or 
+listener, you wrap the function 
+call in an anonymous function.
+
+
+---------
+
+## USING PARAMETERS WITH EVENT LISTENERS 
+The first line of this example shows the updated 
+checkUsername() function. The mi nlength 
+parameter specifies the minimum number of 
+characters that the username should be. 
+
+The value that is passed into the checkUsername() 
+function is used in the conditional statement to 
+check if the name is long enough, and provide 
+feedback if the username name is too short. 
+
+----
+
+# Event Flow
+Html elements nest inside other element .if you hover or click on a link,you will also  hovering or clicking on its patents.
+
+## Why flow matters
+the flow of events only  really matters when your code.has event handlers on an element and one of its ancestor or descendat elements.
+
+-----
+
+## The event object
+
+When an event occurs, the event object tells 
+you information about the event, and the 
+element it happened upon.
+
+Every time an event fires, the The event object is passed to 
+event object contains helpful any function that is the event 
+data about the event, such as: handler or listener.
+
+* Which element the event happened on If you need to pass arguments 
+* Which key was pressed for a to a named function, the event 
+keypress event object will first be passed to the 
+* What part of the viewport the anonymous wrapper function 
+user clicked for a c 1 i ck event (this happens automatically); 
+(the viewport is the part of then you must specify it as a 
+the browser window that parameter of the named function 
+shows the web page) (as shown on the next page).
+
+-----
+
+# EVENT DELEGATION 
+Creating event listeners for a lot of elements 
+can slow down a page, but event flow allows 
+you to listen for an event on a parent element.
+
+---
+
+## CHANGING DEFAULT BEHAVIOR 
+
+**preventDefau1t ()** 
+Some events, such as clicking on 
+links and submitting forms, take 
+the user to another page. 
+To prevent the default behavior 
+of such elements (e.g., to keep 
+the user on the same page 
+rather than following a link 
+or being taken to a new page 
+after submitting a form), you 
+can use the event object's 
+preventoefault() method. 
+IES- 8 have an equivalent 
+property called return Va 1 ue 
+which can be set to fa 1 se. A 
+conditional statement can check 
+if the prevent Def au 1t () method 
+is supported, and use IE8's 
+approach if it isn't: 
+if (event .preventDefault) 
+event.preventDefaul t (); 
+else { 
+event .returnVal ue = false; 
+The event object has methods that change: 
+the default behavior of an element and how 
+the element's ancestors respond to the event.
+
+* **stopPropagation()** 
+Once you have handled an 
+event using one element, you 
+may want to stop that event 
+from bubbling up to its ancestor 
+elements (especially if there 
+are separate event handlers 
+responding to the same events 
+on the containing elements). 
+To stop the event bubbling up, 
+you can use the event object's 
+stopPropogation() method. 
+
+**USING BOTH METHODS** 
+You will sometimes see the 
+following used in similar 
+situations that are in a function: 
+r eturn false; 
+It prevents the default behavior 
+of the element, and prevents 
+the event from bubbling up or 
+capturing further. It also works in 
+all browsers, so it is popular.
+
+ **USING EVENT DELEGATION**
+
+-----
+
+**WHICH ELEMENT DID ANEVENT OCCUR ON?**
+When calling a function, the event object's target property is the best 
+way to determine which element the event occurred on. But you may see 
+the approach below used; it relies on the this keyword.
+
+----
+
+## DIFFERENT TYPES OF EVENTS 
+In the rest of the chapter, you learn about the 
+different types of events you can respond to. 
+
+Events are defined in: 
+* The W3C DOM specification 
+* The HTMLS specification 
+* In Browser Object Models
+
+Most are a result of the user 
+interacting with the HTML, but 
+there are a few that react to the 
+browser or other DOM events. 
+We do not show every event, 
+but the examples you see should 
+teach you enough so that you 
+can work with all types of events. 
+
+-----
+
+**USER INTERFACE EVENTS** 
+User interface CUI) events occur as a result of interaction with the 
+browser window rather than the HTML page contained within it, 
+e.g., a page having loaded or the browser window being resized. 
+
+The event handler I listener for 
+UI events should be attached to 
+the browser window. 
+In old HTML code, you may see these events used as attributes on the 
+opening `<body>` tag. (For example, older code used the on 1 oad attribute 
+to trigger code that would run when the page had loaded.) 
+
+----
+
+## LOAD 
+The load event is commonly 
+used to trigger scripts that 
+access the contents of the page. 
+In this example, a function called 
+setup() gives focus to the text 
+input when the page has loaded
+
+The event is automatically raised 
+by the window object when a 
+page has finished loading the 
+HTML and all of its resources: 
+images, CSS, scripts (even third 
+party content e.g .. banner ads). 
+
+The setup() function would not 
+work before the page has loaded 
+because it relies on finding the 
+element whose id attribute has 
+a value of username, in order to 
+give it focus. 
+
+**FOCUS & BLUR EVENTS** 
+The HTML elements you can interact with, such as links and form 
+elements, can gain focus. These events fire when they gain or lose focus.
+
+**FOCUS & BLUR**
+**ti pUsername ()** is triggered 
+when the text input gains focus. 
+It changes the cl ass attribute 
+of the element containing the 
+message, and updates the 
+contents of the element. 
+**checkUsername ()** is triggered 
+when the text input loses focus. 
+It adds a message and changes 
+the cl ass if the username is less 
+than 5 characters; otherwise, it 
+clears the message.
+
+------
+
+## MOUSE EVENTS 
+
+The mouse events are fired when the mouse is moved and also when its 
+buttons are clicked. 
+All of the elements on a page support the mouse 
+events, and all of these bubble. Note that actions are 
+different on touchscreen devices. 
+ 
+Preventing a default behavior can have unexpected 
+results. E.g., a click event only fires when both the 
+mousedown and mouseup event have fired. 
+
+----
+
+## CLICK 
+
+The aim of this example is to use 
+the c 1 i ck event to remove the 
+big note that has been added to 
+the middle of the page. But first, 
+the script has to create that note. 
+
+Because the note is over the 
+top of the page, we only want 
+to show it to users who have 
+JavaScript enabled (otherwise 
+they could not hide it). 
+ 
+When the c 1 i ck event fires on 
+the close link the di smi ssNote() 
+function is called. This function 
+will remove the note that was 
+added by the same script.
+
+-------
+
+## Where events occur
+the event object can tell you where the cursor was positioned when an event was triggered.
+
+* screen 
+the screen x and screen y properties indicate the position of the cursor within the entire screen on your montior ,
+
+* Page 
+the page x and page y  properties indicate the position of the curos within the entiere page .
+
+* client 
+the client x and client y properties of the cursir within the browser view port.
+
+-----
+
+## DETERMINING POSITION  
+
+In this example, as you move 
+your mouse around the screen, 
+the text inputs across the top of 
+the page are updated with the 
+current mouse position. 
+This demonstrates the three 
+different positions you can 
+retrieve when the mouse is 
+moved or when one of the 
+buttons is clicked
+
+--------
+## KEYBOARD EVENTS
+
+The keyboard events are fired when a user interacts with the keyboard 
+(they fire on any kind of device with a keyboard). 
+
+------
+
+## FORM EVENTS
+There are two events that are commonly used with forms. 
+In particular you are likely to see submit used in form validation.
+
+----
+
+## MUTATION EVENTS & OBSERVERS
+
+Whenever elements are added to or removed from the DOM, its 
+structure changes. This change triggers a mutation event. 
+When your script adds or removes content from a 
+page it is updating the DOM tree. There are many 
+reasons why you might want to respond to the DOM 
+tree being updated, for example, you might want to 
+tell the user that the page had changed. 
+
+------
+
+* Events are the browser's way of indicating when 
+something has happened (such as when a page has 
+finished loading or a button has been clicked). 
+
+* Binding is the process of stating which event you are 
+waiting to happen, and which element you are waiting 
+for that event to happen upon. 
+
+* When an event occurs on an element, it can trigger a 
+JavaScript function. When this function then changes 
+the web page in some way, it feels interactive because 
+it has responded to the user. 
+
+* You can use event delegation to monitor for events 
+
+* that happen on all of the children of an element. 
+The most commonly used events are W3C DOM 
+events, although there are others in the HTMLS 
+specification as well as browser-specific events. 
