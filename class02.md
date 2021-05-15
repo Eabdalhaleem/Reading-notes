@@ -325,12 +325,68 @@ a conditional statements is based on a concept of if/then/else; if a condition i
 
 ---------
 
-page 149 /js book
+## decision making 
+
+there are often several places in a script where deisions are made that determin which lines of code should be run next .flowcharts can help you plan for these occasions.
+
+----
+
+## Evaluating conditions & conditional statements
+
+there are two comonents to a decision 
+* an expression is evaluted , which returns a value
+* a conditional statement says what to do in a given situation.
 
 
+![con](https://transang.me/content/images/2020/04/Screen-Shot-2020-04-05-at-12.03.48-PM.png)
 
+----
 
+## Comparison operators: Evaluating conditions
 
+you can evaluate a situation by comparing one value in the script to what you expect it might be. the result will be a boolean :true or false.
+**(==)is equal** to copare 2 values to see if they are the same
+**(!=)is not equal** to copare 2 values (numbers, string or boalen) to  see if they are not the same
+**(===)strict equal** to compare 2 value to check that both the data type and value are the same
+**(!==)strict** not equal to compare 2 value to check that both the data type and value are not the same
+
+---------
+
+(>)greater than
+(<)less than
+(>=)greater than or equal
+(<=)less than or equal
+
+------
+
+152 js book
+
+-------
+
+## How to Write a Git Commit Message
+
+Introduction: Why good commit messages matter
+If you browse the log of any random Git repository, you will probably find its commit messages are more or less a mess
+Which would you rather read?
+
+The former varies in length and form; the latter is concise and consistent.
+The former is what happens by default; the latter never happens by accident.
+
+While many repositories’ logs look like the former, there are exceptions. The Linux kernel and Git itself are great examples. Look at Spring Boot, or any repository managed by Tim Pope.
+
+The contributors to these repositories know that a well-crafted Git commit message is the best way to communicate context about a change to fellow developers (and indeed to their future selves). A diff will tell you what changed, but only the commit message can properly tell you why. 
+
+-------
+
+Style. Markup syntax, wrap margins, grammar, capitalization, punctuation. Spell these things out, remove the guesswork, and make it all as simple as possible. The end result will be a remarkably consistent log that’s not only a pleasure to read but that actually does get read on a regular basis.
+
+Content. What kind of information should the body of the commit message (if any) contain? What should it not contain?
+
+Metadata. How should issue tracking IDs, pull request numbers, etc. be referenced?
+
+Fortunately, there are well-established conventions as to what makes an idiomatic Git commit message. Indeed, many of them are assumed in the way certain Git commands function. There’s nothing you need to re-invent. Just follow the seven rules below and you’re on your way to committing like a pro.
+
+--------
 
 
 
