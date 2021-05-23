@@ -137,3 +137,46 @@ All of these effects (bar one) are controlled with the transition property
 Not all elements use the transition property. We can also create highly complex animations using @keyframes, animation and animation-iteration.
 
 In this case, we’ll first define a CSS animation in your styles. You’ll notice that due to implementation issues, we need to use @-webkit-keyframes as well as @keyframes (yes, Internet Explorer really is better than Chrome, in this respect at least).
+
+-------
+
+**6 Buttons animated**
+
+![button1](img/buttomani.PNG)
+
+![button2](img/buttom2.PNG)
+![button3](img/buttom3.PNG)
+![button4](img/button4.PNG)
+![button5](img/button5.PNG)
+
+-----------
+
+**CSS3 Animations: Keyframes**
+
+![animation1](img/animatin.PNG)
+![animation2](img/animatin2.PNG)
+![animation3](img/animatin3.PNG)
+![animation4](img/animatin4.PNG)
+![animation5](img/animation5.PNG)
+
+---------
+
+**404**
+
+![code1](img/code1.PNG)
+![code2](img/code2.PNG)
+
+------
+
+**Pure CSS Bounce Animation**
+
+![codev](img/codev.PNG)
+![codev2](img/codev2.PNG)
+![codev3](img/codev3.PNG)
+![codev4](img/codev4.PNG)
+![codev5](img/codev5.PNG)
+![codev6](img/codev6.PNG)
+![codev7](img/codev7.PNG)
+![codev8](img/codev8.PNG)
+![codev9](img/codev9.PNG)
+
