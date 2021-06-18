@@ -28,6 +28,7 @@ starting points. A growth mindset is synonymous with a love of learning.
 
 # Read assigments
 
+Code 102 - Intro to Software Development
 |name|link|
 |----|----|
 |read01|[read01](https://eabdalhaleem.github.io/Reading-notes/read01)|
@@ -43,6 +44,7 @@ starting points. A growth mindset is synonymous with a love of learning.
 ------------------------
 
 |code 201 reading notes| links|
+Code 201 - Foundations of Software Development
 |---------|------|
 |class01|[class01](https://eabdalhaleem.github.io/Reading-notes/class01)|
 |class02|[class02](https://eabdalhaleem.github.io/Reading-notes/class02)|
@@ -59,3 +61,8 @@ starting points. A growth mindset is synonymous with a love of learning.
 |class13|[class13](https://eabdalhaleem.github.io/Reading-notes/class13)|
 |class14a|[class14a](https://eabdalhaleem.github.io/Reading-notes/class14a)|
 |class14b|[class14b](https://eabdalhaleem.github.io/Reading-notes/class14b)|
+
+
+Code 301 -Reading links
+Code 301 - Intermediate Software Development
+|||
