@@ -65,4 +65,5 @@ Code 201 - Foundations of Software Development
 
 Code 301 -Reading links
 Code 301 - Intermediate Software Development
-|||
+|-------|----------|
+|class01|[class30101](https://eabdalhaleem.github.io/Reading-notes/class30101)|
