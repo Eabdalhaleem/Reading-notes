@@ -1,5 +1,15 @@
 # Reading-notes
 
+
+# Reading notes :its a note for us as student here we made like a summery of what we will learn in this course and what we learned , this course incloud 4 leavel as you can see : 
+
+# Code 102 - Intro to Software Development
+# Code 201 - Foundations of Software Development
+# Code 301 - Intermediate Software Development
+# Code 401 - Advanced Software Development
+
+------------ 
+
 # Growth Mindset
 
  Face your problem
@@ -66,4 +76,5 @@ Code 201 - Foundations of Software Development
 Code 301 -Reading links
 Code 301 - Intermediate Software Development
 |-------|----------|
-|class01|[class30101](https://eabdalhaleem.github.io/Reading-notes/class30101)|
+|class01|[class01-301](https://eabdalhaleem.github.io/Reading-notes/class01-301)|
+|class02|[class02-301](https://eabdalhaleem.github.io/Reading-notes/class02-301)|
