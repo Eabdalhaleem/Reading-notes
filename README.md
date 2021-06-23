@@ -39,8 +39,8 @@ starting points. A growth mindset is synonymous with a love of learning.
 # Read assigments
 
 Code 102 - Intro to Software Development
-|name|link|
-|----|----|
+
+
 |read01|[read01](https://eabdalhaleem.github.io/Reading-notes/read01)|
 |read2|[read2](https://eabdalhaleem.github.io/Reading-notes/read2)|
 |read03|[read03](https://eabdalhaleem.github.io/Reading-notes/read03)|
@@ -53,9 +53,9 @@ Code 102 - Intro to Software Development
 
 ------------------------
 
-|code 201 reading notes| links|
+
 Code 201 - Foundations of Software Development
-|---------|------|
+
 |class01|[class01](https://eabdalhaleem.github.io/Reading-notes/class01)|
 |class02|[class02](https://eabdalhaleem.github.io/Reading-notes/class02)|
 |class03|[class03](https://eabdalhaleem.github.io/Reading-notes/class03)|
@@ -73,10 +73,11 @@ Code 201 - Foundations of Software Development
 |class14b|[class14b](https://eabdalhaleem.github.io/Reading-notes/class14b)|
 
 
-Code 301 -Reading links
+
 Code 301 - Intermediate Software Development
-|-------|----------|
+
 |class01|[class01-301](https://eabdalhaleem.github.io/Reading-notes/class01-301)|
 |class02|[class02-301](https://eabdalhaleem.github.io/Reading-notes/class02-301)|
 |class03|[class03-301](https://eabdalhaleem.github.io/Reading-notes/class03-301)|
 |class04|[class04-301](https://eabdalhaleem.github.io/Reading-notes/class04-301)|
+|class05|[class05-301](https://eabdalhaleem.github.io/Reading-notes/class05-301)|
