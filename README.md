@@ -87,3 +87,5 @@ Code 301 - Intermediate Software Development
 |class09|[class09-301](https://eabdalhaleem.github.io/Reading-notes/class09-301)|
 |class10|[class10-301](https://eabdalhaleem.github.io/Reading-notes/class10-301)|
 |class11|[class11-301](https://eabdalhaleem.github.io/Reading-notes/class11-301)|
+|class12|[class12-301](https://eabdalhaleem.github.io/Reading-notes/class12-301)|
+|class13|[class13-301](https://eabdalhaleem.github.io/Reading-notes/class13-301)|
